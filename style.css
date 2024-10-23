@@ -1,0 +1,35 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+.container {
+    margin-top: 50px;
+}
+.card {
+    background-color: #666666;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+}
+.card-title {
+    font-size: 24px;
+    color: #333;
+}
+#dog-image {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+#get-image {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#get-image:hover {
+    background-color: #45a049;
+}
